@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+h1 {
+    background-color: rgb(28, 27, 31);
+    color: rgb(145, 154, 167);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    font-size: 150%;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(51, 50, 50);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.flex-container>div {
+    background-color: rgb(0, 0, 0);
+    width: 27%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: gray;
+    border: 1px solid lightgray;
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(113, 59, 212);
+}
+
+body {
+    background-color: rgb(51, 50, 50)
+}
+footer{
+    color: lightgray;
+}
